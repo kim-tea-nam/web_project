@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Project.css">
+    <title>웹페이지 기말 프로젝트</title>
+</head>
+<body>
+    <h3>나의 즐겨찾기 웹페이지</h3>
+    <form id="searchForm">
+        <input type="text" id="search" placeholder="검색어를 입력하세요">
+        <input type="button" value="검색" onclick="handleSearch()">
+    </form>
+
+    <div class="site-container">
+        <h2>사이트 모음</h2>
+        <div class="site-list" id="siteList">
+            <!-- 여기에 사이트 모음이 동적으로 추가될 것입니다. -->
+        </div>
+        <button id="addSiteButton">사이트 추가</button>
+        <div id="addSiteForm" style="display: none;">
+            <label for="newSiteName">사이트 이름:</label>
+            <input type="text" id="newSiteName">
+            <label for="newSiteURL">사이트 주소:</label>
+            <input type="text" id="newSiteURL">
+            <button id="submitSite">추가</button>
+        </div>
+    </div>
+
+    <div class="site-container">
+        <h2>이용한 사이트</h2>
+        <div class="site-list" id="usedSiteList">
+            <!-- 여기에 이용한 사이트가 동적으로 추가될 것입니다. -->
+        </div>
+    </div>
+
+    <script src="/project.js"></script>
+</body>
+</html>

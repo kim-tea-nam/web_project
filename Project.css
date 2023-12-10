@@ -1,0 +1,40 @@
+h3 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+#search {
+    border: #00ff00 3px solid;
+    border-radius: 20px;
+    height: 40px;
+    width: 50%;
+    padding-top: 5px;
+}
+
+.site-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.site-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.site-image {
+    max-width: 100px;
+    max-height: 100px;
+}
